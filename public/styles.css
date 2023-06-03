@@ -1,0 +1,133 @@
+/* TAGS */
+.card button{
+    padding: 0%;
+    background-color: #232323;
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+}
+
+body{
+    background-color: #ffffff;
+    color: black;
+    font-family: sans-serif;
+}
+
+p{
+  color: black;
+}
+
+
+
+
+/* CLASSES */
+
+/* CARD */
+
+header {
+    background-color: #232323;
+    margin: auto -16px;
+    padding: 16px 32px;
+  }
+
+.card {
+    width: 211.6px;
+    /* position: relative; */
+
+}
+
+.show-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 5%;
+  }
+  
+  .show-card {
+    flex: 0 0 210px; /* Set a fixed width for each card */
+    margin: 20px;
+    /* Add any additional styling you want for the cards */
+  }
+  
+  /* Media query for responsive layout */
+  @media screen and (max-width: 768px) {
+    .show-card {
+      /* flex-basis: 5%; Adjust the flex-basis as needed */
+    }
+  }
+  
+.card-title {
+    /* text-align: center; */
+    padding: 0px 15px;
+    margin: 8px 0px;
+}
+
+.movie-img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-description {
+    padding: 15px;
+}
+
+.card-description div {
+    padding: 5px 0px;
+}
+
+.invisible-link {
+  display: none;
+}
+
+
+
+
+
+/* MOVIE DESCRIPTIONN */
+
+.movie-descr-img{
+  width: 20%;
+  height: 20%;
+  /* padding: 50px; */
+}
+
+.website-title{
+  color: white;
+}
+
+.movie-desrp-header{
+  margin-bottom: 5%;
+}
+
+.smaller-image {
+  width: 100%;      /* Full width on mobile */
+  max-width: 50%;   /* Maximum width of 50% on larger screens */
+  height: auto;
+}
+
+.movie-description-img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  
+}
+
+
+
+
+/* FORM */
+
+.form-container {
+  display: grid;
+  /* place-items: center; center both horizontally and vertically */
+  /* width: 50%; */
+  
+}
+
+.form{
+    background-color: #d1e8fb;     
+}
+
+.custom-select {
+  width: 50px; /* Adjust the width as needed */
+}
